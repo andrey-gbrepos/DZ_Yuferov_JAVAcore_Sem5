@@ -25,5 +25,8 @@ public class Program {
         } catch (IOException e){
             System.out.println(e);
         }
+        
+ 	Tree tree = new Tree();
+    tree.print(new File("."), "", true);
     }
 }
